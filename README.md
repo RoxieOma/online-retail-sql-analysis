@@ -37,7 +37,7 @@ The tools used are
   *	PgAdmin4 GUI.
 
 # RESOURCES
-  •	Data source: https://www.kaggle.com/datasets/tunguz/online-retail
-  •	SQL for Data Analysis by Cathy Tanimura
-  •	Stackoverflow
+  *	Data source: https://www.kaggle.com/datasets/tunguz/online-retail
+  *	SQL for Data Analysis by Cathy Tanimura
+  *	Stackoverflow
 
