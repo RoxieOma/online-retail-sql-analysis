@@ -1,11 +1,15 @@
-# PROJECT OVERVIEW – Online Retail Data Analysis (SQL-Based)
-This project is focused on cleaning, structuring, normalizing, and analyzing transactional online retail data using purely SQL. 
-The original dataset is a CSV file that was sourced from [Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail) and contains information on customers' transactions over a period of one year (from December 2010 to December 2011). 
-The dataset was originally provided as a flat file that contained information on invoices, stockcode (which is the product code), customer ID, product description, country where the customers reside, price, quantity of purchase, and date of invoice. It also contained inconsistencies, missing values, and cancelled/returned orders. 
+## PROJECT OVERVIEW – Online Retail Data Analysis (SQL-Based)
+This project shows how to transform, structure, normalize, and analyze transactional online retail data using purely SQL. 
+The original dataset is a CSV file, which was sourced from [Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail) and contains information on customers' transactions. 
 
 The goal of this project is to transform messy e-Commerce raw files strictly using SQL (PostgreSQL) into clean data with structured relational schemas where meaningful insights that mimic real-life situations can be derived. 
 
-# PROJECT OBJECTIVE
+## Dataset
+ * **Source:** kaggle (online retail)
+ * **Format:** CSV
+ * **Content:** invoices, stockcode, customer’s ID, description of the product, country, price and quantity 
+
+## PROJECT OBJECTIVE
   *	Explore and clean the messy data
   *	Normalize the flat CSV file into structured SQL tables such as the ORDERS table, CANCELLED table, INVOICES table, PRODUCTS table, and CUSTOMERS table.
   * Implement FOREIGN KEYS and Constraints to provide data quality and referential integrity.
@@ -13,12 +17,12 @@ The goal of this project is to transform messy e-Commerce raw files strictly usi
   *	Populate a revenue column with the ORDERS and CANCELLED tables.
   *	Answer key business questions through SQL queries.
 
-# PROJECT PHASE
+## PROJECT PHASE
 The project would be divided into two phases:
-  *	Phase 1: This would deal with cleaning the data and creating schemas
+  *	Phase 1: This would deal with cleaning the data and creating schemas.
   *	Phase 2: This phase tackles business questions and possible visualizations using Power BI.
 
-# TABLES CREATED
+## TABLES CREATED
 Tables created for this project are: 
 |Table Name |	 Description                                                                                            |
 |-----------|---------------------------------------------------------------------------------------------------------|
@@ -28,15 +32,16 @@ Tables created for this project are:
 |Invoices	  |  Each row contains a unique invoice ID with the date the invoices were issued                           |
 |Products	  |  Each row contains a unique invoice ID with the date the invoices were issued                           |
 
-# SCHEMA
+## SCHEMA
  ![image](https://github.com/user-attachments/assets/6c44c91a-5b5d-41de-8f7f-19f55ce85936)
 
-# TOOLS
+## TOOLS
 The tools used are 
   *	PostgreSQL for data manipulation and querying the database
   *	PgAdmin4 GUI.
+  *	GitHub Desktop.
 
-# RESOURCES
+## RESOURCES
   *	Data source: https://www.kaggle.com/datasets/tunguz/online-retail
   *	SQL for Data Analysis by Cathy Tanimura
   *	Stackoverflow
