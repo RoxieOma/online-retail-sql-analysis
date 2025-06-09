@@ -1,8 +1,8 @@
 # PROJECT OVERVIEW – Online Retail Data Analysis (SQL-Based)
 This project is focused on cleaning, structuring, normalizing, and analyzing transactional online retail data using purely SQL. 
 The original dataset is a CSV file that was sourced from [Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail) and contains information on customers' transactions over a period of one year (from December 2010 to December 2011). 
-The dataset was originally provided as a flat file that contained information on invoices, stockcode (which is the product code), customer’s ID, product description, country where the customers reside, price, quantity of purchase and date of invoice. 
-It also contained inconsistencies, missing values, and cancelled/returned orders. 
+The dataset was originally provided as a flat file that contained information on invoices, stockcode (which is the product code), customer ID, product description, country where the customers reside, price, quantity of purchase, and date of invoice. It also contained inconsistencies, missing values, and cancelled/returned orders. 
+
 The goal of this project is to transform messy e-Commerce raw files strictly using SQL (PostgreSQL) into clean data with structured relational schemas where meaningful insights that mimic real-life situations can be derived. 
 
 # PROJECT OBJECTIVE
@@ -16,7 +16,7 @@ The goal of this project is to transform messy e-Commerce raw files strictly usi
 # PROJECT PHASE
 The project would be divided into two phases:
   *	Phase 1: This would deal with cleaning the data and creating schemas
-  *	Phase 2: This tackles business questions and possible visualizations using Power BI.
+  *	Phase 2: This phase tackles business questions and possible visualizations using Power BI.
 
 # TABLES CREATED
 Tables created for this project are: 
